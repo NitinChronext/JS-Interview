@@ -1,40 +1,14 @@
 # JavaScript Interview Questions & Answers
 
-> Click :star:if you like the project. Pull Requests are highly appreciated. Follow me [@SudheerJonna](https://twitter.com/SudheerJonna) for technical updates.
+> Click :star:if you like the project. Pull Requests are highly appreciated. Follow me [@ndpiparava](https://twitter.com/ndpiparava) for technical updates.
 
 Go to [Coding Exercise](#coding-exercise) for coding specific questions
 
 ## Download PDF/Epub formats
 
-You can download the PDF and Epub version of this repository from the latest run on the [actions tab](https://github.com/sudheerj/JavaScript-Interview-Questions/actions).
+You can download the PDF and Epub version of this repository from the latest run on the [actions tab](https://github.com/Nitinj/JavaScript-Interview-Questions/actions).
 
 ---
-
-<p align="center">
-  <a href=https://zerotomastery.io/?utm_source=github&utm_medium=sponsor&utm_campaign=javascript-interview-questions>
-    <img src=https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=height:70/https://www.filepicker.io/api/file/AKYtjj5SSGyJuyZrkAB2 alt="ZTM Logo">
-  </a>
-  <p align="center">
-    <ol>
-    <li>Take this <a href=https://links.zerotomastery.io/jsp_sudheer>JavaScript Projects</a> course to go from a JavaScript beginner to confidently building your own projects</li>
-    <li>Take this <a href=https://links.zerotomastery.io/mci_sudheer2>coding interview bootcamp</a> if you’re serious about getting hired and don’t have a CS degree</li>
-    <li>Take this <a href=https://links.zerotomastery.io/ajs_sudheer>Advanced JavaScript Course</a> to learn advanced JS concepts and become a top JS developer</li>
-    </ol>
-  </p>
-</p>
-
----
-
-<div align="center">
-    <p>
-        <a href="https://www.youtube.com/watch?v=Zb4dPi7CANU">
-            JavaScript Interview Questions | Top JavaScript Interview Questions and Answers.
-            <div>
-                <img src="https://img.youtube.com/vi/Zb4dPi7CANU/0.jpg" width="220" height="150" alt="JavaScript">
-            </div>
-        </a>
-    </p>
-</div>
 
 ---
 
@@ -132,7 +106,7 @@ You can download the PDF and Epub version of this repository from the latest run
 | 88  | [How do you submit a form using JavaScript](#how-do-you-submit-a-form-using-javascript)                                                                           |
 | 89  | [How do you find operating system details](#how-do-you-find-operating-system-details)                                                                             |
 | 90  | [What is the difference between document load and DOMContentLoaded events](#what-is-the-difference-between-document-load-and-domcontentloaded-events)             |
-| 91  | [What is the difference between native, host and user objects](#what-is-the-difference-between-native-host-and-user-objects)                                     |
+| 91  | [What is the difference between native, host and user objects](#what-is-the-difference-between-native-host-and-user-objects)                                      |
 | 92  | [What are the tools or techniques used for debugging JavaScript code](#what-are-the-tools-or-techniques-used-for-debugging-javascript-code)                       |
 | 93  | [What are the pros and cons of promises over callbacks](#what-are-the-pros-and-cons-of-promises-over-callbacks)                                                   |
 | 94  | [What is the difference between an attribute and a property](#what-is-the-difference-between-an-attribute-and-a-property)                                         |
@@ -177,7 +151,7 @@ You can download the PDF and Epub version of this repository from the latest run
 | 133 | [How do you check if a string starts with another string](#how-do-you-check-if-a-string-starts-with-another-string)                                               |
 | 134 | [How do you trim a string in javascript](#how-do-you-trim-a-string-in-javascript)                                                                                 |
 | 135 | [How do you add a key value pair in javascript](#how-do-you-add-a-key-value-pair-in-javascript)                                                                   |
-| 136 | [Is the '!--' notation represents a special operator](#is-the----notation-represents-a-special-operator)                                                           |
+| 136 | [Is the '!--' notation represents a special operator](#is-the----notation-represents-a-special-operator)                                                          |
 | 137 | [How do you assign default values to variables](#how-do-you-assign-default-values-to-variables)                                                                   |
 | 138 | [How do you define multiline strings](#how-do-you-define-multiline-strings)                                                                                       |
 | 139 | [What is an app shell model](#what-is-an-app-shell-model)                                                                                                         |
@@ -203,7 +177,7 @@ You can download the PDF and Epub version of this repository from the latest run
 | 159 | [How do you search a string for a pattern](#how-do-you-search-a-string-for-a-pattern)                                                                             |
 | 160 | [What is the purpose of exec method](#what-is-the-purpose-of-exec-method)                                                                                         |
 | 161 | [How do you change style of a HTML element](#how-do-you-change-style-of-a-html-element)                                                                           |
-| 162 | [What would be the result of 1+2+'3'](#what-would-be-the-result-of-123)                                                                                       |
+| 162 | [What would be the result of 1+2+'3'](#what-would-be-the-result-of-123)                                                                                           |
 | 163 | [What is a debugger statement](#what-is-a-debugger-statement)                                                                                                     |
 | 164 | [What is the purpose of breakpoints in debugging](#what-is-the-purpose-of-breakpoints-indebugging)                                                                |
 | 165 | [Can I use reserved words as identifiers](#can-i-use-reserved-words-as-identifiers)                                                                               |
@@ -505,7 +479,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
       ```javascript
       var object = {
-           name: "Sudheer"
+           name: "Nitin"
            age: 34
       };
 
@@ -523,7 +497,7 @@ You can download the PDF and Epub version of this repository from the latest run
         this.name = name;
         this.age = 21;
       }
-      var object = new Person("Sudheer");
+      var object = new Person("Nitin");
       ```
 
    5. **Function constructor with prototype:**
@@ -532,14 +506,14 @@ You can download the PDF and Epub version of this repository from the latest run
 
       ```javascript
       function Person() {}
-      Person.prototype.name = "Sudheer";
+      Person.prototype.name = "Nitin";
       var object = new Person();
       ```
 
       This is equivalent to an instance created with an object create method with a function prototype and then call that function with an instance and parameters as arguments.
 
       ```javascript
-      function func() {};
+      function func() {}
 
       new func(x, y, z);
       ```
@@ -568,7 +542,7 @@ You can download the PDF and Epub version of this repository from the latest run
         }
       }
 
-      var object = new Person("Sudheer");
+      var object = new Person("Nitin");
       ```
 
    7. **Singleton pattern:**
@@ -577,7 +551,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
       ```javascript
       var object = new (function () {
-        this.name = "Sudheer";
+        this.name = "Nitin";
       })();
       ```
 
@@ -3296,21 +3270,20 @@ You can download the PDF and Epub version of this repository from the latest run
      console.log(obj.prop); //100
      ```
 
-     Remember freezing is only applied to the top-level properties in objects but not for nested objects. 
+     Remember freezing is only applied to the top-level properties in objects but not for nested objects.
      For example, let's try to freeze user object which has employment details as nested object and observe that details have been changed.
 
      ```javascript
      const user = {
-       name: 'John',
+       name: "John",
        employment: {
-         department: 'IT'
-       }
+         department: "IT",
+       },
      };
 
      Object.freeze(user);
-     user.employment.department = 'HR';
+     user.employment.department = "HR";
      ```
-
 
      **Note:** It causes a TypeError if the argument passed is not an object.
 
@@ -4431,7 +4404,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
      ```javascript
      // Initialize an array a
-     for(let i=0; i < a.length; a[i++] = 0) ;
+     for (let i = 0; i < a.length; a[i++] = 0);
      ```
 
      **[⬆ Back to Top](#table-of-contents)**
@@ -4494,7 +4467,7 @@ You can download the PDF and Epub version of this repository from the latest run
        return "Hello, " + name;
      }
 
-     let user = "Sudheer";
+     let user = "Nitin";
 
      console.log(greeting(user));
      ```
@@ -6266,7 +6239,7 @@ You can download the PDF and Epub version of this repository from the latest run
        perimeter: () => 2 * Math.PI * this.radius,
      };
      ```
-     
+
      ```javascript
      console.log(circle.diameter());
      console.log(circle.perimeter());
@@ -7578,7 +7551,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
      ```js
      console.group("User Details");
-     console.log("name: Sudheer Jonna");
+     console.log("name: Nitin Jonna");
      console.log("job: Software Developer");
 
      // Nested Group
@@ -7849,7 +7822,7 @@ You can download the PDF and Epub version of this repository from the latest run
        throttle(handleScrollAnimation, 100);
      });
      ```
- 
+
      **[⬆ Back to Top](#table-of-contents)**
 
 436. ### What is optional chaining?
@@ -7859,19 +7832,19 @@ You can download the PDF and Epub version of this repository from the latest run
      The ?. operator is like the . chaining operator, except that instead of causing an error if a reference is nullish (null or undefined), the expression short-circuits with a return value of undefined. When used with function calls, it returns undefined if the given function does not exist.
 
      ```js
-      const adventurer = {
-        name: 'Alice',
-        cat: {
-          name: 'Dinah'
-        }
-      };
+     const adventurer = {
+       name: "Alice",
+       cat: {
+         name: "Dinah",
+       },
+     };
 
-      const dogName = adventurer.dog?.name;
-      console.log(dogName);
-      // expected output: undefined
+     const dogName = adventurer.dog?.name;
+     console.log(dogName);
+     // expected output: undefined
 
-      console.log(adventurer.someNonExistentMethod?.());
-      // expected output: undefined
+     console.log(adventurer.someNonExistentMethod?.());
+     // expected output: undefined
      ```
 
 ### Coding Exercise
@@ -8591,7 +8564,7 @@ console.log(numbers.includes(NaN)); // true
 #### 23. What is the output of below code
 
 ```javascript
-let [a, ...b,] = [1, 2, 3, 4, 5];
+let [a, ...b] = [1, 2, 3, 4, 5];
 console.log(a, b);
 ```
 
@@ -8990,7 +8963,7 @@ Using constructors, `new.target` refers to the constructor (points to the class 
 const [x, ...y, z] = [1, 2, 3, 4];
 console.log(x, y, z);
 ```
-  
+
 - 1: 1, [2, 3], 4
 - 2: 1, [2, 3, 4], undefined
 - 3: 1, [2], 3
@@ -9843,7 +9816,7 @@ let quickPromise = Promise.resolve();
 
 quickPromise.then(() => console.log("promise finished"));
 
-console.log("program finished"); 
+console.log("program finished");
 ```
 
 - 1: program finished
@@ -9871,15 +9844,16 @@ Even though a promise is resolved immediately, it won't be executed immediately 
 #### 61. What is the output of below code?
 
 ```javascript
-console.log('First line')
-['a', 'b', 'c'].forEach((element) => console.log(element))
-console.log('Third line')
+console
+  .log("First line")
+  [("a", "b", "c")].forEach((element) => console.log(element));
+console.log("Third line");
 ```
 
 - 1: `First line`, then print `a, b, c` in a new line, and finally print `Third line` as next line
-- 2: `First line`, then print `a, b, c` in a first line, and  print `Third line` as next line
-- 3:  Missing semi-colon error
-- 4:  Cannot read properties of undefined
+- 2: `First line`, then print `a, b, c` in a first line, and print `Third line` as next line
+- 3: Missing semi-colon error
+- 4: Cannot read properties of undefined
 
 <details><summary><b>Answer</b></summary>
 <p>
@@ -9889,7 +9863,9 @@ console.log('Third line')
 When JavaScript encounters a line break without a semicolon, the JavaScript parser will automatically add a semicolon based on a set of rules called `Automatic Semicolon Insertion` which determines whether line break as end of statement or not to insert semicolon. But it does not assume a semicolon before square brackets [...]. So the first two lines considered as a single statement as below.
 
 ```javascript
-console.log('First line')['a', 'b', 'c'].forEach((element) => console.log(element))
+console
+  .log("First line")
+  [("a", "b", "c")].forEach((element) => console.log(element));
 ```
 
 Hence, there will be **cannot read properties of undefined** error while applying the array square bracket on log function.
@@ -9908,21 +9884,37 @@ Hence, there will be **cannot read properties of undefined** error while applyin
 <p>
 
 ```javascript
-const HEX_ALPHABET = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"];
+const HEX_ALPHABET = [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+];
 const HEX_PREFIX = "#";
 const HEX_LENGTH = 6;
 
 function generateRandomHex() {
-	let randomHex = "";
+  let randomHex = "";
 
-	for(let i = 0; i < HEX_LENGTH; i++) {
-		const randomIndex = Math.floor(Math.random() * HEX_ALPHABET.length);
-		randomHex += HEX_ALPHABET[randomIndex];
-	}
+  for (let i = 0; i < HEX_LENGTH; i++) {
+    const randomIndex = Math.floor(Math.random() * HEX_ALPHABET.length);
+    randomHex += HEX_ALPHABET[randomIndex];
+  }
 
-	return HEX_PREFIX + randomHex;
+  return HEX_PREFIX + randomHex;
 }
-
 ```
 
 </p>
@@ -9932,14 +9924,19 @@ function generateRandomHex() {
 <details><summary><b>Solution 2 (One-liner)</b></summary>
 <p>
 
-```javascript 
+```javascript
 const HEX_PREFIX = "#";
 const HEX_RADIX = 16;
 const HEX_LENGTH = 6;
 
 function generateRandomHex() {
-	return HEX_PREFIX + Math.floor(Math.random() * 0xffffff).toString(HEX_RADIX).padStart(HEX_LENGTH, "0");
-} 
+  return (
+    HEX_PREFIX +
+    Math.floor(Math.random() * 0xffffff)
+      .toString(HEX_RADIX)
+      .padStart(HEX_LENGTH, "0")
+  );
+}
 ```
 
 </p>
@@ -9953,16 +9950,16 @@ function generateRandomHex() {
 #### 63. What is the output of below code?
 
 ```javascript
-var of = ['of'];
-for(var of of of) {
+var of = ["of"];
+for (var of of of) {
   console.log(of);
 }
 ```
 
-- 1:  of
-- 2:  SyntaxError: Unexpected token of
-- 3:  SyntaxError: Identifier 'of' has already been declared
-- 4:  ReferenceError: of is not defined
+- 1: of
+- 2: SyntaxError: Unexpected token of
+- 3: SyntaxError: Identifier 'of' has already been declared
+- 4: ReferenceError: of is not defined
 
 <details><summary><b>Answer</b></summary>
 <p>
